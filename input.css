@@ -6,15 +6,15 @@
 }
 @font-face {
     font-family: "YekanBakhMedium";
-    src: url(Public/fonts/YekanBakh-Regular.woff) format("woff");
+    src: url(Public/fonts/YekanBakh-Medium.woff) format("woff");
 }
 @font-face {
     font-family: "YekanBakhBold";
-    src: url(Public/fonts/YekanBakh-Regular.woff) format("woff");
+    src: url(Public/fonts/YekanBakh-Bold.woff) format("woff");
 }
 @font-face {
     font-family: "YekanBakhHeavy";
-    src: url(Public/fonts/YekanBakh-Regular.woff) format("woff");
+    src: url(Public/fonts/YekanBakh-Heavy.woff) format("woff");
 }
 
 @theme {
@@ -22,4 +22,14 @@
 --font-YekanBakhMedium: "YekanBakhMedium";
 --font-YekanBakhBold: "YekanBakhBold";
 --font-YekanBakhHeavy: "YekanBakhHeavy";
+
+--color-head-color: rgba(29, 41, 57, 1);
+--color-border-color: rgba(229, 229, 229, 0.6);
+--color-star-color: rgba(251, 191, 36, 1);
+
+--spacing-17.5: 4.375rem;
+
+--shadow-custom: 0 42px 50px 0 rgba(0, 0, 0, 0.1);
+--shadow-custom2: 0px 22px 40px 0px rgba(0, 0, 0, 0.08);
+
 }
