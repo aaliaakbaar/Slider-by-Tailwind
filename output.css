@@ -178,6 +178,12 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
   .col-span-4 {
     grid-column: span 4 / span 4;
   }
@@ -277,17 +283,20 @@
   .w-\[616px\] {
     width: 616px;
   }
-  .w-\[1127px\] {
-    width: 1127px;
-  }
-  .w-\[1128px\] {
-    width: 1128px;
-  }
   .w-full {
     width: 100%;
   }
   .border-collapse {
     border-collapse: collapse;
+  }
+  .rotate-12 {
+    rotate: 12deg;
+  }
+  .rotate-\[4deg\] {
+    rotate: 4deg;
+  }
+  .rotate-\[8deg\] {
+    rotate: 8deg;
   }
   .resize {
     resize: both;
@@ -369,25 +378,9 @@
     --tw-leading: var(--spacing);
     line-height: var(--spacing);
   }
-  .leading-1\.5 {
-    --tw-leading: calc(var(--spacing) * 1.5);
-    line-height: calc(var(--spacing) * 1.5);
-  }
   .leading-4 {
     --tw-leading: calc(var(--spacing) * 4);
     line-height: calc(var(--spacing) * 4);
-  }
-  .leading-\[24px\] {
-    --tw-leading: 24px;
-    line-height: 24px;
-  }
-  .leading-\[27px\] {
-    --tw-leading: 27px;
-    line-height: 27px;
-  }
-  .leading-\[262px\] {
-    --tw-leading: 262px;
-    line-height: 262px;
   }
   .text-head-color {
     color: var(--color-head-color);
