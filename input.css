@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "YekanBakhRgular";
+    src: url(Public/fonts/YekanBakh-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "YekanBakhMedium";
+    src: url(Public/fonts/YekanBakh-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "YekanBakhBold";
+    src: url(Public/fonts/YekanBakh-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "YekanBakhHeavy";
+    src: url(Public/fonts/YekanBakh-Regular.woff) format("woff");
+}
+
+@theme {
+--font-YekanBakhRgular: "YekanBakhRgular";
+--font-YekanBakhMedium: "YekanBakhMedium";
+--font-YekanBakhBold: "YekanBakhBold";
+--font-YekanBakhHeavy: "YekanBakhHeavy";
+}
